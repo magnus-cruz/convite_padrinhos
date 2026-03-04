@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início Rápido - Convite Padrinhos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 700px;
+            background: white;
+            padding: 3rem;
+            border-radius: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        h1 {
+            color: #667eea;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .icon {
+            font-size: 5rem;
+            color: #764ba2;
+            margin-bottom: 2rem;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        .options {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .btn {
+            padding: 1.2rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.8rem;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+        .btn-secondary {
+            background: linear-gradient(135deg, #11998e, #38ef7d);
+            color: white;
+        }
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        }
+        .info-box {
+            background: rgba(102, 126, 234, 0.1);
+            padding: 1.5rem;
+            border-radius: 15px;
+            margin-top: 2rem;
+            border-left: 5px solid #667eea;
+        }
+        .info-box h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        .info-box ul {
+            text-align: left;
+            list-style-position: inside;
+        }
+        .info-box li {
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <i class="fas fa-rocket icon"></i>
+        
+        <h1>Bem-vindo ao Convite!</h1>
+        
+        <p>
+            <i class="fas fa-star"></i>
+            Escolha como deseja visualizar o convite:
+        </p>
+        
+        <div class="options">
+            <a href="index.html" class="btn btn-primary">
+                <i class="fas fa-play"></i>
+                Abrir Convite Agora
+            </a>
+            
+            <a href="README.md" class="btn btn-secondary" download>
+                <i class="fas fa-book"></i>
+                Ver Instruções
+            </a>
+        </div>
+        
+        <div class="info-box">
+            <h3><i class="fas fa-info-circle"></i> Modos de Execução</h3>
+            <ul>
+                <li><strong>Simples:</strong> Clique em "Abrir Convite Agora" acima</li>
+                <li><strong>Com Java:</strong> Execute <code>./run.sh</code> (Linux/Mac) ou <code>run.bat</code> (Windows)</li>
+                <li><strong>Servidor Local:</strong> Use <code>python3 -m http.server 8000</code></li>
+            </ul>
+        </div>
+        
+        <p style="margin-top: 2rem; color: #888; font-size: 0.9rem;">
+            <i class="fas fa-heart"></i>
+            Desenvolvido com carinho pela turma
+        </p>
+    </div>
+</body>
+</html>

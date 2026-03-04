@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Especial - Padrinhos de Sala</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Página Inicial -->
+    <section id="home" class="section active">
+        <div class="container fade-in">
+            <div class="logo-area">
+                <i class="fas fa-graduation-cap icon-large"></i>
+                <i class="fas fa-heart icon-medium"></i>
+                <i class="fas fa-users icon-medium"></i>
+            </div>
+            
+            <div class="image-container">
+                <img src="img/turma.jpg" alt="Nossa Turma" class="turma-image">
+                <div class="image-overlay">
+                    <i class="fas fa-camera"></i>
+                </div>
+            </div>
+            
+            <h1 class="main-title">
+                Danilo e Carla,<br>
+                temos uma pergunta especial para vocês.
+            </h1>
+            
+            <p class="subtitle">
+                <i class="fas fa-star"></i>
+                Prepare-se para algo inesquecível
+                <i class="fas fa-star"></i>
+            </p>
+            
+            <button class="btn-primary animated-btn" id="btnSaibaMais">
+                <i class="fas fa-arrow-right"></i>
+                Saiba mais
+                <i class="fas fa-arrow-right"></i>
+            </button>
+            
+            <div class="decorative-icons">
+                <i class="fas fa-book"></i>
+                <i class="fas fa-pencil-alt"></i>
+                <i class="fas fa-lightbulb"></i>
+                <i class="fas fa-trophy"></i>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Seção Saiba Mais -->
+    <section id="convite" class="section">
+        <div class="container fade-in">
+            <div class="convite-header">
+                <i class="fas fa-envelope-open-text icon-huge"></i>
+                <h2 class="convite-title">O Grande Convite</h2>
+            </div>
+            
+            <div class="convite-content">
+                <div class="message-box">
+                    <p class="message-principal">
+                        <i class="fas fa-quote-left"></i>
+                        Depois de tantos momentos juntos, risadas, trabalhos e desafios...
+                        <strong>vocês aceitam ser nossos padrinhos de sala?</strong>
+                        <i class="fas fa-quote-right"></i>
+                    </p>
+                    
+                    <div class="message-details">
+                        <p>
+                            <i class="fas fa-hands-helping"></i>
+                            Vocês são peças fundamentais na nossa jornada. Com o apoio, a amizade e 
+                            a parceria de vocês, nossa turma se tornou mais unida e especial.
+                        </p>
+                        <p>
+                            <i class="fas fa-medal"></i>
+                            Ser padrinho de sala é muito mais do que um título – é ser parte 
+                            essencial da nossa história, das nossas conquistas e memórias.
+                        </p>
+                        <p>
+                            <i class="fas fa-heart"></i>
+                            Vocês topam esse desafio?
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="decision-area">
+                    <h3>Qual é a decisão de vocês?</h3>
+                    
+                    <div class="buttons-container" id="buttonsContainer">
+                        <button class="btn-aceitar" id="btnAceitar">
+                            <i class="fas fa-check-circle"></i>
+                            Eu aceito!
+                        </button>
+                        
+                        <button class="btn-negar" id="btnNegar">
+                            <i class="fas fa-times-circle"></i>
+                            Não aceito
+                        </button>
+                    </div>
+                    
+                    <p class="hint">
+                        <i class="fas fa-info-circle"></i>
+                        Clique no botão que representa a decisão de vocês
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modal de Confirmação -->
+    <div id="celebration" class="celebration-modal">
+        <div class="celebration-content">
+            <div class="confetti-container" id="confettiContainer"></div>
+            
+            <i class="fas fa-trophy celebration-icon"></i>
+            
+            <h2 class="celebration-title">🎉 Agora é oficial! 🎉</h2>
+            
+            <p class="celebration-message">
+                <strong>Vocês são nossos padrinhos de sala!</strong>
+            </p>
+            
+            <p class="celebration-text">
+                <i class="fas fa-heart"></i>
+                Obrigado por aceitarem fazer parte dessa jornada incrível conosco!
+                <i class="fas fa-heart"></i>
+            </p>
+            
+            <div class="celebration-icons">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-trophy"></i>
+                <i class="fas fa-crown"></i>
+                <i class="fas fa-gem"></i>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

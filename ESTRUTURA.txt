@@ -1,0 +1,121 @@
+ESTRUTURA DO PROJETO - Convite Padrinhos de Sala
+================================================
+
+convite/
+│
+├── 📄 index.html                    # Página principal do convite
+├── 📄 inicio.html                   # Página de início rápido
+├── 📄 README.md                     # Documentação completa do projeto
+├── 📄 .gitignore                    # Arquivos ignorados pelo Git
+│
+├── 🔧 run.sh                        # Script de execução para Linux/Mac
+├── 🔧 run.bat                       # Script de execução para Windows
+│
+├── 📁 css/
+│   └── 📄 style.css                 # Estilos e animações do site
+│
+├── 📁 js/
+│   └── 📄 script.js                 # Interatividade e efeitos JavaScript
+│
+├── 📁 img/
+│   ├── 📄 README.md                 # Instruções sobre a imagem
+│   └── 🖼️ turma.jpg                 # Imagem da turma (placeholder SVG)
+│
+└── 📁 java/                         # Backend Spring Boot
+    │
+    ├── 📄 pom.xml                   # Dependências Maven
+    │
+    └── 📁 src/
+        └── 📁 main/
+            │
+            ├── 📁 java/
+            │   └── 📁 com/convite/padrinhos/
+            │       │
+            │       ├── 📄 ConviteApplication.java        # Classe principal
+            │       │
+            │       └── 📁 controller/
+            │           └── 📄 ConviteController.java     # Controller Spring
+            │
+            └── 📁 resources/
+                └── 📄 application.properties   # Configurações Spring Boot
+
+
+ARQUIVOS CRIADOS
+================
+
+Frontend (HTML/CSS/JS):
+✅ index.html - Página principal interativa
+✅ inicio.html - Página de boas-vindas
+✅ css/style.css - 450+ linhas de CSS com animações
+✅ js/script.js - JavaScript com interatividade dos botões
+
+Backend (Java):
+✅ ConviteApplication.java - Aplicação Spring Boot
+✅ ConviteController.java - Controller com endpoints
+✅ pom.xml - Dependências Maven
+✅ application.properties - Configurações
+
+Recursos:
+✅ img/turma.jpg - Placeholder SVG
+✅ img/README.md - Instruções de imagem
+
+Scripts:
+✅ run.sh - Script Linux/Mac
+✅ run.bat - Script Windows
+
+Documentação:
+✅ README.md - Documentação completa
+✅ .gitignore - Arquivos ignorados
+
+
+FUNCIONALIDADES IMPLEMENTADAS
+==============================
+
+✨ Página inicial animada com identidade visual
+✨ Imagem da turma com efeito hover
+✨ Navegação suave entre seções
+✨ Botões interativos que trocam de posição
+✨ Impossível clicar em "Não aceito"
+✨ Modal de celebração ao aceitar
+✨ Efeito de confete animado
+✨ Fogos de artifício virtuais
+✨ Easter egg: Konami Code
+✨ Responsivo para todos os dispositivos
+✨ Backend Java com Spring Boot
+✨ Endpoints REST para status e aceitação
+✨ Configuração completa do servidor
+
+
+COMO USAR
+=========
+
+Modo Simples (HTML):
+1. Abra inicio.html no navegador
+2. Clique em "Abrir Convite Agora"
+3. Divirta-se!
+
+Modo Servidor (Java):
+1. Execute ./run.sh (Linux/Mac) ou run.bat (Windows)
+2. Acesse http://localhost:8080
+3. Aproveite!
+
+
+TECNOLOGIAS
+===========
+
+Frontend:
+- HTML5
+- CSS3 (Gradientes, Flexbox, Animações)
+- JavaScript ES6+
+- Font Awesome 6.5
+- Google Fonts (Poppins)
+
+Backend:
+- Java 17
+- Spring Boot 3.2
+- Maven
+- Spring Web
+- Spring DevTools
+
+
+Desenvolvido com ❤️ pela turma
